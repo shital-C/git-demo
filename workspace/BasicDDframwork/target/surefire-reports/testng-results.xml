@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43295" started-at="2022-01-05T18:42:41 IST" finished-at="2022-01-05T18:43:24 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43295" started-at="2022-01-05T18:42:41 IST" finished-at="2022-01-05T18:43:24 IST">
+      <class name="HomepageTest.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HomepageTest.LoginPageTest@358ee631]" name="setup" is-config="true" duration-ms="9222" started-at="2022-01-05T18:42:47 IST" finished-at="2022-01-05T18:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:HomepageTest.LoginPageTest@358ee631]" name="validateLogin" duration-ms="8871" started-at="2022-01-05T18:42:56 IST" data-provider="getData" finished-at="2022-01-05T18:43:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shital@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:HomepageTest.LoginPageTest@358ee631]" name="validateLogin" duration-ms="8479" started-at="2022-01-05T18:43:05 IST" data-provider="getData" finished-at="2022-01-05T18:43:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Choudhari@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sample@1223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateloginpageTitle()[pri:0, instance:HomepageTest.LoginPageTest@358ee631]" name="validateloginpageTitle" duration-ms="29" started-at="2022-01-05T18:43:13 IST" finished-at="2022-01-05T18:43:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginpageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HomepageTest.LoginPageTest@358ee631]" name="tearDown" is-config="true" duration-ms="745" started-at="2022-01-05T18:43:23 IST" finished-at="2022-01-05T18:43:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HomepageTest.LoginPageTest -->
+      <class name="HomepageTest.HomepageTest">
+        <test-method status="PASS" signature="Homenevigation()[pri:0, instance:HomepageTest.HomepageTest@ec756bd]" name="Homenevigation" is-config="true" duration-ms="5733" started-at="2022-01-05T18:42:41 IST" finished-at="2022-01-05T18:42:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homenevigation -->
+        <test-method status="PASS" signature="Homenevigation()[pri:0, instance:HomepageTest.HomepageTest@ec756bd]" name="Homenevigation" duration-ms="4534" started-at="2022-01-05T18:43:13 IST" finished-at="2022-01-05T18:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homenevigation -->
+        <test-method status="PASS" signature="validateLoginClick()[pri:0, instance:HomepageTest.HomepageTest@ec756bd]" name="validateLoginClick" duration-ms="4775" started-at="2022-01-05T18:43:18 IST" finished-at="2022-01-05T18:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HomepageTest.HomepageTest@ec756bd]" name="tearDown" is-config="true" duration-ms="720" started-at="2022-01-05T18:43:23 IST" finished-at="2022-01-05T18:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HomepageTest.HomepageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

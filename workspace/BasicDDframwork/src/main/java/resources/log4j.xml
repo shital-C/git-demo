@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Properties>
+<Property name=" D:\shital\workspace\BasicDDframwork\logs"></Property>
+</Properties>
+
+  <Appenders>
+         <RollingFile name="File" fileName="D:\shital\workspace\BasicDDframwork\logs\prints.log" filePattern="${basePath}/prints-%d{yyyy-mm-dd}.log">
+<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5Level %Logger{36} - %msg%n" />
+<SizeBasedTriggeringPolicy size="500" />
+</RollingFile>
+
+<Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+  <Root level="all" additivity="false"	>
+      <AppenderRef ref="console"/>
+      <AppenderRef ref="File"/>
+    
+    </Root>>
+  </Loggers>
+</Configuration>
